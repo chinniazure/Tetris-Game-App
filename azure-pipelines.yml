@@ -10,9 +10,9 @@ resources:
 
 variables:
   # Container registry service connection established during pipeline creation
-  dockerRegistryServiceConnection: 'ee400ea2-ce8a-495b-be87-a9c9ab6a91e1'
-  imageRepository: 'chinniazuretetrisgameapp'
-  containerRegistry: 'mylab3.azurecr.io'
+  dockerRegistryServiceConnection: 'mylab-project'
+  imageRepository: 'mylab13'
+  containerRegistry: 'mylab13.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
 
